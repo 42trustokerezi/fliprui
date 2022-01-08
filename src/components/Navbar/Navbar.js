@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <AppBar className={classes.appBar} position="static" color="inherit">
       <Link to="/" className={classes.brandContainer}>
-        <img component={Link} to="/" src={flipr} alt="icon" height="46px" />
+        <img component={Link} to="/" src={flipr} alt="icon" height="180px" width="220px" />
         <img className={classes.image} src={Logo} alt="icon" height="40px" />
       </Link>
       <Toolbar className={classes.toolbar}>
